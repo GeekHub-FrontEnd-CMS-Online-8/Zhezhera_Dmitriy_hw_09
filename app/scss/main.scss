@@ -1,0 +1,80 @@
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+@import "burger";
+@import "header";
+@import "services";
+@import "carousel";
+@import "works";
+@import "team";
+@import "clients";
+@import "pricing";
+@import "contacts";
+@import "footer";
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #29323c;
+}
+h1,h2,h3,p{
+  margin-top: 0;
+}
+.hide{
+  display: none;
+}
+
+.btn{
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.section {
+  &__title{
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 29px;
+    text-align: center;
+    margin-bottom: 0;
+  }
+  &__subtitle{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 29px;
+    text-align: center;
+  }
+}
+.white{
+  color: white;
+}
+
+.line{
+  margin: 0 auto;
+  height: 2px;
+  width: 40px;
+  background-color: #29323c;
+  &--white{
+    background-color: white;
+  }
+}
+
+.margin-bottom0{
+  margin-bottom: 0;
+}
+
+@import "media";

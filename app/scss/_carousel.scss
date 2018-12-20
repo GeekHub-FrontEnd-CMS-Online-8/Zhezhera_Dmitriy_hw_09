@@ -1,0 +1,52 @@
+.section-carousel {
+  min-height: 577px;
+  padding-top: 35px;
+}
+
+.slide-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  &__text {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  &__decor {
+    margin-bottom: 30px;
+  }
+
+  &__img {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+  }
+  &__name {
+    font-family: "Montserrat";
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 700;
+    padding-top: 20px;
+  }
+  &__position {
+    font-family: "Montserrat";
+    font-size: 13px;
+    line-height: 20px;
+    padding-top: 10px;
+  }
+}
+
+.carousel-indicators--update{
+  bottom: -50px;
+  li{
+    border: 1px solid #2b3746;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+  }
+  li.active{
+    background-color: #2b3746;
+  }
+}
